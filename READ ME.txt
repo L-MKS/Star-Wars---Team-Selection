@@ -1,0 +1,8 @@
+Aprendendo a aplicar JavaScript em HTML e CSS.
+
+Objetivo: Colocar em prática meus estudos sobre Javascript.
+
+Código criado do zero com a intenção de simular uma página de seleção de times em um jogo de star wars fictício.
+
+--------------------------------
+

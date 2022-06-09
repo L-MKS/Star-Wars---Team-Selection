@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1{
+    border-radius: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border: 2px solid white;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 10%;
+}
+
+.titulo2{
+    border-radius: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border: 2px solid white;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 10%;
+}
+
+.luke{
+    border-radius: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    background-color:green;
+    border: 2px solid white;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 10%;
+}
+
+.vader{
+    border-radius: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 10%;
+}
+
+.lightside {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-image: url(./imagens/luke.jpg);
+    background-size: 100% 100%;
+    opacity: 50%;
+}
+
+.darkside {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-image: url(./imagens/vader.jpg);
+    background-size: 100% 100%;
+    opacity: 50%;
+}
+
+.lightside:hover {
+    opacity: 100%;
+}
+
+.darkside:hover {
+   opacity: 100%;
+}
+
+.lightside2 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-image: url(./imagens/luke.jpg);
+    background-size: 100% 100%;
+    opacity: 100%;
+    border: 10px solid green;
+}
+
+.darkside2 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-image: url(./imagens/vader.jpg);
+    background-size: 100% 100%;
+    opacity: 100%;
+    border: 10px solid red;
+}
+
